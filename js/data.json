@@ -1,0 +1,193 @@
+[{
+  "id": 0,
+  "title": "Эконом",
+  "isHot": false,
+  "pictures": [{
+      "phone": "img/phone/catalog-img-1--phone.jpg",
+      "pad": "img/pad/catalog-img-1--pad.jpg",
+      "pc": "img/catalog-img-1.jpg"
+  }],
+  "webp": [{
+      "phone": "img/phone/webp/catalog-img-1--phone.webp",
+      "pad": "img/pad/webp/catalog-img-1--pad.webp",
+      "pc": "img/webp/catalog-img-1.webp"
+  }],
+  "equipment": [
+      "empty"
+  ],
+  "price": 100,
+  "square": 0.63,
+  "size": [{
+      "w": 90,
+      "l": 70,
+      "h": 180
+  }]
+},
+{
+  "id": 1,
+  "title": "Эконом плюс",
+  "isHot": true,
+  "slides": [{
+      "phone": "img/phone/room-1--phone.jpg",
+      "pad": "img/pad/room1-img.jpg",
+      "pc": "img/room1-img.jpg"
+  }],
+  "slideswebp": [{
+      "phone": "img/phone/webp/room-1--phone.webp",
+      "pad": "img/pad/webp/room-1--pad.webp",
+      "pc": "img/webp/room1-img.webp"
+  }],
+  "pictures": [{
+      "phone": "img/phone/catalog-img-2--phone.jpg",
+      "pad": "img/pad/catalog-img-2--pad.jpg",
+      "pc": "img/catalog-img-2.jpg"
+  }],
+  "webp": [{
+      "phone": "img/phone/webp/catalog-img-2--phone.webp",
+      "pad": "img/pad/webp/catalog-img-2--pad.webp",
+      "pc": "img/webp/catalog-img-2.webp"
+  }],
+  "equipment": [
+      "sofa",
+      "cat-tree"
+  ],
+  "price": 200,
+  "square": 0.90,
+  "size": [{
+      "w": 90,
+      "l": 100,
+      "h": 180
+  }]
+},
+{
+  "id": 2,
+  "title": "Комфорт",
+  "isHot": true,
+  "slides": [{
+      "phone": "img/phone/room-2--phone.jpg",
+      "pad": "img/pad/room2-img.jpg",
+      "pc": "img/room2-img.jpg"
+  }],
+  "slideswebp": [{
+      "phone": "img/phone/webp/room-2--phone.webp",
+      "pad": "img/pad/webp/room-2--pad.webp",
+      "pc": "img/webp/room2-img.webp"
+  }],
+  "pictures": [{
+      "phone": "img/phone/catalog-img-3--phone.jpg",
+      "pad": "img/pad/catalog-img-3--pad.jpg",
+      "pc": "img/catalog-img-3.jpg"
+  }],
+  "webp": [{
+      "phone": "img/phone/webp/catalog-img-3--phone.webp",
+      "pad": "img/pad/webp/catalog-img-3--pad.webp",
+      "pc": "img/webp/catalog-img-3.webp"
+  }],
+  "equipment": [
+      "sofa",
+      "cat-tree",
+      "toy"
+  ],
+  "price": 250,
+  "square": 1.13,
+  "size": [{
+      "w": 100,
+      "l": 125,
+      "h": 180
+  }]
+},
+{
+  "id": 3,
+  "title": "Сьют",
+  "isHot": true,
+  "slides": [{
+      "phone": "img/phone/room-3--phone.jpg",
+      "pad": "img/pad/room3-img.jpg",
+      "pc": "img/room3-img.jpg"
+  }],
+  "slideswebp": [{
+      "phone": "img/phone/webp/room-3--phone.webp",
+      "pad": "img/pad/webp/room-3--pad.webp",
+      "pc": "img/webp/room3-img.webp"
+  }],
+  "pictures": [{
+      "phone": "img/phone/catalog-img-4--phone.jpg",
+      "pad": "img/pad/catalog-img-4--pad.jpg",
+      "pc": "img/catalog-img-4.jpg"
+  }],
+  "webp": [{
+      "phone": "img/phone/webp/catalog-img-4--phone.webp",
+      "pad": "img/pad/webp/catalog-img-4--pad.webp",
+      "pc": "img/webp/catalog-img-4.webp"
+  }],
+  "equipment": [
+      "sofa",
+      "cat-tree",
+      "toy"
+  ],
+  "price": 350,
+  "square": 1.56,
+  "size": [{
+      "w": 125,
+      "l": 125,
+      "h": 180
+  }]
+},
+{
+  "id": 4,
+  "title": "Люкс",
+  "isHot": false,
+  "pictures": [{
+      "phone": "img/phone/catalog-img-5--phone.jpg",
+      "pad": "img/pad/catalog-img-5--pad.jpg",
+      "pc": "img/catalog-img-5.jpg"
+  }],
+  "webp": [{
+      "phone": "img/phone/webp/catalog-img-5--phone.webp",
+      "pad": "img/pad/webp/catalog-img-5--pad.webp",
+      "pc": "img/webp/catalog-img-5.webp"
+  }],
+  "equipment": [
+      "sofa",
+      "cat-tree",
+      "toy",
+      "house"
+  ],
+  "price": 500,
+  "square": 2.56,
+  "size": [{
+      "w": 160,
+      "l": 160,
+      "h": 180
+  }]
+},
+{
+  "id": 5,
+  "title": "Супер-Люкс",
+  "isHot": false,
+  "pictures": [{
+      "phone": "img/phone/catalog-img-6--phone.jpg",
+      "pad": "img/pad/catalog-img-6--pad.jpg",
+      "pc": "img/catalog-img-6.jpg"
+  }],
+  "webp": [{
+      "phone": "img/phone/webp/catalog-img-6--phone.webp",
+      "pad": "img/pad/webp/catalog-img-6--pad.webp",
+      "pc": "img/webp/catalog-img-6.webp"
+  }],
+  "equipment": [
+      "sofa",
+      "cat-tree",
+      "toy",
+      "house"
+  ],
+  "price": 600,
+  "square": 2.88,
+  "size": [{
+      "w": 180,
+      "l": 160,
+      "h": 180
+  }]
+}
+
+]
