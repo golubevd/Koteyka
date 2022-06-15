@@ -72,14 +72,15 @@
                         data-sorting-order="asc">
                     <input class="visual-hidden" type="radio" id="sorting_4" name="sorting" data-sorting="price"
                         data-sorting-order="desc">
-                    <button type="button" class="inner-page_button sorting-toggler">&#129045; По площади</button>
+                    <button type="button" class="inner-page_button sorting-toggler"><i class="fa fa-long-arrow-up" aria-hidden="true"></i> По площади</button>
                     <div class="sorting">
                         <ul class="sorting-list dropdown">
                             <li class="sorting-item sorting-item--ascending sorting-item--active" data-input="1">
-                                &#129045; По площади</li>
-                            <li class="sorting-item sorting-item--descending" data-input="2">&#129047; По площади</li>
-                            <li class="sorting-item sorting-item--ascending" data-input="3">&#129045; По цене</li>
-                            <li class="sorting-item sorting-item--descending" data-input="4">&#129047; По цене</li>
+                                <i class="fa fa-long-arrow-up" aria-hidden="true"></i> По площади</li>
+                            <li class="sorting-item sorting-item--descending" data-input="2"><i class="fa fa-long-arrow-down" aria-hidden="true"></i> По площади</li>
+                            <li class="sorting-item sorting-item--ascending" data-input="3"><i class="fa fa-long-arrow-up" aria-hidden="true"></i>
+                                По цене</li>
+                            <li class="sorting-item sorting-item--descending" data-input="4"><i class="fa fa-long-arrow-down" aria-hidden="true"></i> По цене</li>
                         </ul>
                     </div>
                 </div>
@@ -267,6 +268,7 @@
     <script src="js/filters.js" defer></script>
     <script src="js/scrolltosection.js" defer></script>
     <script src="js/request.js" defer></script>
+    <script src="https://kit.fontawesome.com/2ce4836029.js" crossorigin="anonymous"></script>
     <template id="cartMarkup">
         <li class="catalog-item">
             <a href="cart.html" class="room-photo">

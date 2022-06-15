@@ -64,8 +64,7 @@ function getCheckboxValue(){
 
 form.addEventListener('submit', (e)=>{
     e.preventDefault();
-    getCheckboxValue();
-    console.log(priceFrom.value,priceTo.value,data.toString());
+    getCheckboxValue();  
 })
 
 filterToggleBtn.addEventListener('click',function(){
@@ -87,7 +86,7 @@ soringItems.forEach((item,index)=>{
     item.addEventListener('click',function(e){  
         e.stopPropagation();
         let targetInput = hiddenInputList.querySelector(`#sorting_${index+1}`);
-        sortingBtn.innerText = this.innerText; 
+        sortingBtn.innerHTML = this.innerHTML; 
         targetInput.checked = true;
         sortingBtn.focus();     
         window.togglemenu.toggleClass(sortingList,'sorting-list-show');     
