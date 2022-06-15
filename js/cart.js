@@ -7,6 +7,7 @@
     const cardSize = descBlock.querySelector('.size');
     const cardSquare = descBlock.querySelector('.square');
     const cardPrice = descBlock.querySelector('.cost');
+    const cardLink = descBlock.querySelector('.get-order');
 
 
     if (window.location.hash) {
@@ -19,6 +20,7 @@
         cardSize.innerHTML = `${data.size[0].w}х${data.size[0].l}х${data.size[0].h} см`
         cardSquare.innerHTML = `${data.square} м<sup>2</sup>`;
         cardPrice.innerHTML = `${data.price}₽`;
+        cardLink.href = `#${data.id}`;
 
         window.request.getEquipment(descBlock, data.equipment)
         renderCartMainPhoto(data)

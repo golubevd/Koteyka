@@ -135,6 +135,7 @@
         //Events
         odrderButtons.forEach(button => {
             button.addEventListener('click', (e) => {
+                e.preventDefault();
                 popUpForm.classList.add(classList[0]);
             })
         })
@@ -147,6 +148,11 @@
         window.togglemenu.onEscClose(popUpForm, classList[0]);
 
         init();
+
+        window.makeorder= {
+            popUpForm:popUpForm,
+            orderForm:orderForm
+        }
 
     });
 
